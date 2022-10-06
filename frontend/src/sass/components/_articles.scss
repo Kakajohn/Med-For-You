@@ -1,0 +1,94 @@
+/* 1. Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+main > nav {
+  position: sticky;
+  top: 6rem;
+  align-self: start;
+}
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.section-nav li.active > a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+  position: fixed;
+  border-top: solid #972e3d;
+  border-left: solid #972e3d;
+  border-radius: 1em;
+  background: #121212;
+}
+body {
+  background-color: #0a0a0a !important;
+  color: #ffffff;
+}
+.section-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.125rem 0;
+  color: rgba(243, 236, 236, 0.664);
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: rgb(235, 186, 186);
+}
+
+/** Poor man's reset **/
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+h1,
+h2,
+h2,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  font-size: large;
+  font-family: system-ui;
+  text-align: justify;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul,
+ol {
+  // background: #0000009e;
+  // border-radius: 1em;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-left: 2rem;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+/** page layout **/
+main {
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+section {
+  padding-bottom: 8rem;
+}

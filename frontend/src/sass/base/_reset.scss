@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  //  color: #2d2d2d
+}
+:root {
+  --text-white: #fff;
+  --bg-color: #ffffff;
+  --text-color: #ffffff;
+  --icon-bg-color: #f5f5f5;
+  --icon-color: #da1a35;
+  --search-bg: #da1a35;
+  --active-color: #0000000a;
+  --border-color: #da1a35;
+  --message-icon-color: #0099ff;
+  --fd-message-bg: #ffffff;
+  --my-message-bg: #ffffff;
+  --my-message-color: #fff;
+  --fd-message-color: #050505;
+  --image-border-color: #972e3d;
+  --active-icon-color: #5ad539;
+  --hover-color: #972e3d;
+}
+body {
+  background-color: #0a0a0a;
+  font-family: 'Raleway', sans-serif;
+}
+
+.messenger.theme {
+  background-color: #0f0f0f;
+  --text-color: #fff;
+  --bg-color: #141b2bf0;
+  --border-color: #213156bf;
+  --icon-bg-color: #0a0a1357;
+  --active-color: #2b335591;
+  --hover-color: #323a5c91;
+  --fd-message-bg: #28324ed9;
+  --my-message-bg: #28324ed9;
+  --search-bg: #15162559;
+  --text-white: #fff;
+  --text-dark: #404040;
+  --icon-color: #fff;
+  --message-icon-color: #fff;
+  --my-message-color: #fff;
+  --fd-message-color: #fff;
+  --active-icon-color: #5ad539;
+  --image-border-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

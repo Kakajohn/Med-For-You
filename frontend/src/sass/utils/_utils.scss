@@ -1,0 +1,52 @@
+.body {
+  overflow-y: hidden;
+}
+.cards {
+  border-radius: 30px;
+  width: 375px;
+  padding: 15px 20px;
+  background-color: #972e3d;
+  box-shadow: 0px 0px 20px 4px #0a0a0a;
+}
+.form-group {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  padding: 12px;
+  border: none;
+  outline: none;
+  background-color: #3e3c3cf2;
+}
+label {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.btn {
+  font-weight: 900;
+  font-family: Raleway, sans-serif;
+  border-radius: 10px;
+  outline: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 12px;
+  text-align: center;
+  background-color: #3e3c3cf2;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  font-family: Raleway, sans-serif;
+  font-size: 900;
+  border-radius: 10px;
+  outline: none;
+  color: #432d31;
+  text-transform: uppercase;
+  padding: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
