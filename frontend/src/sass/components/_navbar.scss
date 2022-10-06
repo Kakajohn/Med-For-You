@@ -143,6 +143,8 @@ nav ul li a {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
+  border-radius: 5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -165,4 +167,9 @@ nav ul li a {
 .topnav a.active {
   background-color: #972e3d;
   color: white;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
 }

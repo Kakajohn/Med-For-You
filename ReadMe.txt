@@ -1,9 +1,11 @@
 ## Interactive tecnhologies for patients with autoimmune bowel diseases.
+
 This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informatics**
 
 @author Kakazianis George
 
 ## How to run the project
+
 ``cd frontend``
 ``npm i``
 ``cd ..``
@@ -34,3 +36,4 @@ as a developer and i was searching what skills suits me best.
 //fix responsiveness for mobile and tablet.
 //use Context or config.json files for all the texts.
 //Check the database.
+//make the side navigation dropdown
