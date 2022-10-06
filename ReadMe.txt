@@ -1,22 +1,36 @@
-           Διαδραστικές Τεχνολογίες Διαδικτύου για άτομα με αυτοάνοσα νοσήματα του εντέρου.
+## Interactive tecnhologies for patients with autoimmune bowel diseases.
+This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informatics**
 
-Το project απευθύνεται σε ιατρούς ( γαστρεντερολόγους), ψυχίατρους-ψυχολόγους και σε ασθενέις (F.A.P. CROWN).
-Σκοπός είνα οι ασθενείς λοιπόν να έρθουν σε επαφή με εξειδικευμένους ιατρούς, ψυχολόγους και ψυχίατρους ώστε
-να λάβουν την απαραίτητη γνώση περί της κατάστασης τους αλλά και να μιλήσουν με άτομα με ίδια ή και παρόμοια
-πάθηση.
- Το Chat Room είναι το βασικό στοιχείο της ιστοσελίδας καθώς μέσα απο αυτό οι χρήστες θα έρχονται σε
-επικοινωνία και θα ανταλλάσουν τόσο απόψεις όσο και θα μαθαίνουν τις απαραίτητες διαδικασίες ανάρρωσης.
+@author Kakazianis George
 
-Χρήσιμες πληροφορίες :
-Για να δείτε και αλληλεπιδράσετε με το project θα χρειαστείτε το Visual Studio, Node JS -->16.14.0 καθώς και 
-το MongoDB Compass. Την 1η φορα που θα ανοιχτεί το project καθώς είναι εξ ολοκλήρου γραμμένο σε React js είναι
-απαραίτητο να τρέξουμε την εντολή npm install. Σε περίπτωση που εμφανίζει error while binding τότε θα πρέπει
-να ακολουθηθεί η ακόλουθη διαδικασία : cd frontend --> npm rebuild node-sass --> cd .. έπειτα είμαστε έτοιμοι
-με το setup του κώδικα.
- Στη συνέχεια θα χρειαστεί να ανοίξουμε το MongoDB Compass να επιλέξουμε Fill in connection fields individually
-και έπειτα Connect.
- Στο Visual Studio θα χρειαστούν δύο terminal, στο 1ο τρέχουμε την εντολή "npm run dev" ώστε να ξεκινήσουν το
-Frontend και το Backend και παράλληλα στο 2ο terminal τρέχουμε "npm run socket" ώστε να λειτουργούν και οι Web
-Sockets.
-Στον browser αυτόματα θα μας παει στο Login απο εκεί μπορούμε να επιλέξουμε το Do not have an account ώστε να μας
-κατευθύνει στο Register όπου μπορούμε να φτιάξουμε ένα νέο λογαριασμό και να πλοηγηθούμε στο Chat room.
+## How to run the project
+``cd frontend``
+``npm i``
+``cd ..``
+``cd backend``
+``npm i``
+``cd ..``
+``cd socket``
+``npm i``
+``cd ..``
+``npm run dev``
+``cd socket``
+``npm start``
+
+## About the project
+
+The website contains 3 pages. The two of them are for the patients or anyone who wants to read
+about **F.A.P.** and **Crohn**, (the articles that exist in the site are provided after consultation
+with the doctor George Loufopoulos). The third and main page for my thesis is the **Chat room**.
+
+The projects purpose is to give a change to people with autoimmune diseases to find each other,
+chat, share their experience. This is the main purpose of the website. So i created a live chat room
+for those patients.
+
+You will shortly find out that is mostly **backend** as with this project i was starting my journey
+as a developer and i was searching what skills suits me best.
+
+## ToDo
+//fix responsiveness for mobile and tablet.
+//use Context or config.json files for all the texts.
+//Check the database.
