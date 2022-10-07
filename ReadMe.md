@@ -2,7 +2,7 @@
 
 This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informatics**
 
-@author Kakazianis George
+**Created by Kakazianis George**
 
 ## How to run the project
 
@@ -15,9 +15,14 @@ This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informa
 ``cd socket``
 ``npm i``
 ``cd ..``
-``npm run dev``
+``npm run dev`` (**one one terminal**)
 ``cd socket``
-``npm start``
+``npm run socket`` (**on a second terminal**)
+
+## Database
+
+The project uses MongoDB Compass. You are gonna have to download the app. After the set up is done you need to
+follow this sequence : open the app then select **Fill in connection fields individually** and **connect**. 
 
 ## About the project
 
@@ -29,10 +34,10 @@ The projects purpose is to give a change to people with autoimmune diseases to f
 chat, share their experience. This is the main purpose of the website. So i created a live chat room
 for those patients.
 
-You will shortly find out that is mostly **backend** as with this project i was starting my journey
+You will shortly find out that is mostly **backend** with a simple **clientside** as with this project i was starting my journey
 as a developer and i was searching what skills suits me best.
 
-## ToDo
+## To Do
 //fix responsiveness for mobile and tablet.
 //use Context or config.json files for all the texts.
 //Check the database.
