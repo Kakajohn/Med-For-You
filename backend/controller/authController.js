@@ -95,7 +95,7 @@ module.exports.userRegister = (req, res) => {
             } else {
               res.status(500).json({
                 error: {
-                  errorMessage: ['Interanl Server Error']
+                  errorMessage: ['Internal Server Error']
                 }
               });
             }
@@ -104,7 +104,7 @@ module.exports.userRegister = (req, res) => {
       } catch (error) {
         res.status(500).json({
           error: {
-            errorMessage: ['Interanl Server Error']
+            errorMessage: ['Internal Server Error']
           }
         });
       }

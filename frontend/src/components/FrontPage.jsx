@@ -1,6 +1,6 @@
 import React from 'react';
 import '../sass/components/_top_button.scss';
-import '../sass/components/_navbar.css';
+import '../sass/components/_navbar.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 import Footer from './Footer';
