@@ -4,6 +4,7 @@
   box-sizing: border-box;
   //  color: #2d2d2d
 }
+
 :root {
   --text-white: #fff;
   --bg-color: #ffffff;
@@ -22,8 +23,9 @@
   --active-icon-color: #5ad539;
   --hover-color: #972e3d;
 }
+
 body {
-  background-color: #0a0a0a;
+  // background-color: #0a0a0a;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -47,9 +49,11 @@ body {
   --active-icon-color: #5ad539;
   --image-border-color: #fff;
 }
+
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }

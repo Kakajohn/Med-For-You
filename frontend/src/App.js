@@ -12,30 +12,30 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          {/* <Route path='/med4u/login' element={<Login />} />
-          <Route path='/med4u/register' element={<Register />} /> */}
+          <Route path='/med4u/login' element={<Login />} />
+          <Route path='/med4u/register' element={<Register />} />
           <Route
             path='/'
             element={
-              // <ProtectRoute>
+              <ProtectRoute>
                 <FrontPage />
-              // </ProtectRoute>
+              </ProtectRoute>
             }
           />
           <Route
             path='/med4u/chat'
             element={
-              // <ProtectRoute>
+              <ProtectRoute>
                 <Messenger />
-              // </ProtectRoute>
+              </ProtectRoute>
             }
           />
           <Route
             path='/med4u/articles'
             element={
-              // <ProtectRoute>
+              <ProtectRoute>
                 <Articles />
-              // </ProtectRoute>
+              </ProtectRoute>
             }
           />
         </Routes>

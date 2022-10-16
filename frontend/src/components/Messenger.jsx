@@ -296,10 +296,10 @@ const Messenger = () => {
           <div className='left-side'>
             <div className='top'>
               <div className='image-name'>
-                {/* <div className='image'>
+                <div className='image'>
                               <img src={`./image/${myInfo.image}`} alt='' />
 
-                         </div> */}
+                         </div>
                 <div className='name'>
                   <h3>{myInfo.userName} </h3>
                 </div>
@@ -314,7 +314,7 @@ const Messenger = () => {
                 </div>
 
                 <div className={hide ? 'theme_logout' : 'theme_logout show'}>
-                  {/* <div className='on'>
+                  <div className='on'>
             <label htmlFor='dark'> <FaMoon/> </label>
                  <input onChange={(e) => dispatch(themeSet(e.target.value)) } type="radio" value="dark" name="theme" id="dark" />
                  </div>
@@ -322,7 +322,7 @@ const Messenger = () => {
                  <div className='of'>
                  <label htmlFor='white'><FaSun/> </label>
                  <input onChange={(e) => dispatch(themeSet(e.target.value)) } type="radio" value="white" name="theme" id="white" />
-                 </div> */}
+                 </div>
                   <div className='logout' style={{ color: 'ffffff' }}>
                     <Link to='/'>
                       <h style={{ color: '#ffffff' }}>Home</h>
@@ -344,13 +344,13 @@ const Messenger = () => {
                 <input onChange={search} type='text' placeholder='Search' className='form-control' />
               </div>
             </div>
-            {/* 
+            
                { <div className='active-friends'>
      {
         activeUser && activeUser.length > 0 ? activeUser.map(u =>  <ActiveFriend setCurrentFriend = {setCurrentFriend} user={u} />) : ''  
      }
                         
-               </div> } */}
+               </div> }
 
             <div className='friends'>
               {friends && friends.length > 0

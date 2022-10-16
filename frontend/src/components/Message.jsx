@@ -59,7 +59,7 @@ const Message = ({ message, currentfriend, scrollRef, typingMessage }) => {
           )
         ) : (
           <div className='friend_connect'>
-            {/* <img src={`./image/${currentfriend.image}`} alt='' /> */}
+            <img src={`./image/${currentfriend.image}`} alt='' />
             <h3>Take a minute to welcome {currentfriend.userName} </h3>
             <span> {moment(currentfriend.createdAt).startOf('mini').fromNow()} </span>
           </div>

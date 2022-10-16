@@ -6,9 +6,9 @@ const FriendInfo = ({ currentfriend, activeUser, message }) => {
     <div className='friend-info'>
       <input type='checkbox' id='gallery' />
       <div className='image-name'>
-        {/* <div className='image'>
+        <div className='image'>
                  <img src={`./image/${currentfriend.image}`} alt='' />
-                 </div> */}
+                 </div>
         {activeUser && activeUser.length > 0 && activeUser.some(u => u.userId === currentfriend._id) ? (
           <div className='active-user'>Active</div>
         ) : (
