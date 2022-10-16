@@ -41,3 +41,7 @@ as a developer and i was searching what skills suits me best.
 //fix responsiveness for mobile and tablet.
 //use Context or config.json files for all the texts.
 //Check the database.
+
+
+
+
