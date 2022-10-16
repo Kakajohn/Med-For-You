@@ -39,9 +39,6 @@ io.on('connection',(socket)=>{
          socket.to(us[i].socketId).emit('new_user_add',con);
     }
 
-
-
-
     });
     socket.on('sendMessage',(data)=>{
          const user = findFriend(data.reseverId);
