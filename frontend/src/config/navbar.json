@@ -1,0 +1,46 @@
+{
+    "NavInfos":[
+        {
+            "helper" : "Options",
+            "name" : "Home",
+            "faicon" : "FaHoMe",
+            "link" : "/"
+        },
+        {
+            "helper" : "",
+            "name" : "Articles",
+            "faicon" : "FaArchive",
+            "link" : "/med4u/articles"
+        },
+        {
+            "helper" : "",
+            "name" : "Chat",
+            "faicon" : "FaCommentAlt",
+            "link" : "/med4u/chat"
+        },
+        {
+            "helper" : "",
+            "name" : "Log out",
+            "faicon" : "FaHoMe",
+            "link" : "/"
+        },
+        {
+            "helper" : "Pagination",
+            "name" : "Helper1",
+            "faicon" : "FaHoMe",
+            "link" : "#overview"
+        },
+        {
+            "helper" : "",
+            "name" : "Helper2",
+            "faicon" : "FaHoMe",
+            "link" : "/med4u/articles/#symptoms"
+        },
+        {
+            "helper" : "",
+            "name" : "helper3",
+            "faicon" : "FaHoMe",
+            "link" : "#diagnosis"
+        }
+    ]
+}

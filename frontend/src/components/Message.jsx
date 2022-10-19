@@ -59,7 +59,7 @@ const Message = ({ message, currentfriend, scrollRef, typingMessage }) => {
           )
         ) : (
           <div className='friend_connect'>
-            <img src={`./image/${currentfriend.image}`} alt='' />
+            {/* <img src={`./image/${currentfriend.image}`} alt='' /> */}
             <h3>Take a minute to welcome {currentfriend.userName} </h3>
             <span> {moment(currentfriend.createdAt).startOf('mini').fromNow()} </span>
           </div>
@@ -72,7 +72,7 @@ const Message = ({ message, currentfriend, scrollRef, typingMessage }) => {
               <img src={`./image/${currentfriend.image}`} alt='' />
               <div className='message-time'>
                 <div className='fd-text'>
-                  <p className='time'>Typing Message.... </p>
+                  <p className='time'>Typing.... </p>
                 </div>
               </div>
             </div>

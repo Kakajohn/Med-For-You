@@ -11,13 +11,12 @@ const Friends = props => {
     <div className='friend'>
       <div className='friend-image'>
         <div className='image'>
-          <img src={`./image/${fndInfo.image}`} alt='' />
-          {activeUser && activeUser.length > 0 && activeUser.some(u => u.userId === fndInfo._id) ? (
-            <div className='active_icon'></div>
-          ) : (
-            ''
-          )}
-        </div>
+                 <img src={`./image/${fndInfo.image}`} alt='' />
+                 {
+                     activeUser && activeUser.length > 0 && activeUser.some(u => u.userId === fndInfo._id ) ?  <div className='active_icon'></div> : ''
+                 }
+                
+                 </div>
       </div>
 
       <div className='friend-name-seen'>

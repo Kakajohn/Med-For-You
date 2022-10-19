@@ -25,70 +25,65 @@ main > nav {
   background: #121212;
 }
 body {
-  // background-color: #0a0a0a !important;
+  background-color: #0a0a0a !important;
   color: #ffffff;
+  // height: 240vh;
 }
-.section-nav a {
-  text-decoration: none;
-  display: block;
-  padding: 0.125rem 0;
-  color: rgba(243, 236, 236, 0.664);
-  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+@media screen and (max-width:992px){
+  .content-a{
+    top: 70px;
+    position: relative;
+  }
 }
+.content-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-.section-nav a:hover,
-.section-nav a:focus {
-  color: rgb(235, 186, 186);
+.secondary-a{
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
-
-/** Poor man's reset **/
-* {
-  box-sizing: border-box;
+p{
+  text-align:justify;
+  font-size: 18px;
+}
+#more , #lesss{
+  visibility: visible;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: unset;
+  cursor: pointer;
+}
+ul>li{
+  font-size: 18px;
   text-align: left;
 }
-h1,
-h2,
-h2,
-h4,
-h5 {
-  font-family: 'Raleway', sans-serif;
+@media  (max-width:600px){
+  h1, h2, h3, h4 , h5{
+      font-size: 16px;
+  }
+  p , ul,li{
+      font-size: 10px !important;
+      line-height: 1 !important;
+  }
 }
-p {
-  font-size: large;
-  font-family: system-ui;
-  text-align: justify;
+h1{
+  margin: 12px;
+  padding: 12px;
 }
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
-
-ul,
-ol {
-  // background: #0000009e;
-  // border-radius: 1em;
-  margin: 0;
-  padding: 0;
-}
-li {
-  margin-left: 2rem;
+#define-new-section{
+  margin-top: 2rem;
 }
 
-h1 {
-  font-weight: 300;
+#header{
+  text-align: center;
 }
-
-/** page layout **/
-main {
-  display: grid;
-  grid-template-columns: 1fr 15em;
-  max-width: 100em;
-  width: 100%;
-  margin: 0 auto;
-}
-
-/** enlarge the sections for this demo, so that we have a long scrollable page **/
-section {
-  padding-bottom: 8rem;
+ul{
+  li{
+    text-align: left;
+  }
 }

@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Articles from './components/Articles';
 import FrontPage from './components/FrontPage';
-import HomePage from './components/HomePage';
 import Login from './components/Login';
 import Messenger from './components/Messenger';
+import Pagenotfound from './components/Pagenotfound';
 import ProtectRoute from './components/ProtectRoute';
 import Register from './components/Register';
 
@@ -17,28 +17,29 @@ function App() {
           <Route
             path='/'
             element={
-              <ProtectRoute>
+              // <ProtectRoute>
                 <FrontPage />
-              </ProtectRoute>
+              // </ProtectRoute>
             }
           />
           <Route
             path='/med4u/chat'
             element={
-              <ProtectRoute>
+              // <ProtectRoute>
                 <Messenger />
-              </ProtectRoute>
+              // </ProtectRoute>
             }
           />
           <Route
             path='/med4u/articles'
             element={
-              <ProtectRoute>
+              // <ProtectRoute>
                 <Articles />
-              </ProtectRoute>
+              // </ProtectRoute>
             }
           />
         </Routes>
+        {/* <Route path='/med4u/*' element={<Pagenotfound />}/> */}
       </BrowserRouter>
     </div>
   );
