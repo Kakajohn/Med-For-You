@@ -1,0 +1,61 @@
+#main{
+  transition: margin-left .5s;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  .secondary{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  p{
+    text-align:justify;
+  }
+
+  ul ,ul>li{
+    margin: 2px;
+    padding: 2px;
+    text-align: left;
+  }
+
+  @media  (max-width:600px){
+    h1, h2, h3, h4 , h5{
+        font-size: 16px;
+    }
+    p , ul,li{
+        font-size: 10px;
+        line-height: 1;
+    }
+  }
+  h1{
+    margin: 12px;
+    padding: 12px;
+}
+  #read , #less,#read2 , #less2{
+    visibility: visible;
+    background: #0a0a0a87;
+    color: #fff;
+    border: unset;
+    cursor: pointer;
+  }
+  
+  }
+  #define-new-section{
+    margin-top: 2rem;
+  }
+  
+  #header{
+    text-align: center;
+  }
+  ul{
+    li{
+      text-align: left;
+    }
+  }
+
+ 

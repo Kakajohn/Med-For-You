@@ -307,7 +307,7 @@ const Messenger = () => {
 
               <div className='icons'>
                 <div onClick={() => setHide(!hide)} className='icon'>
-                  NAV
+                  <FaEllipsisH />
                 </div>
                 <div className='icon'>
                   <FaEdit />
@@ -362,7 +362,7 @@ const Messenger = () => {
                       <Friends activeUser={activeUser} myId={myInfo.id} friend={fd} />
                     </div>
                   ))
-                : 'No Friend'}
+                : 'Empty data'}
             </div>
           </div>
         </div>
@@ -381,7 +381,7 @@ const Messenger = () => {
             typingMessage={typingMessage}
           />
         ) : (
-          'Please Select your Friend'
+          'Please select a Friend'
         )}
       </div>
     </div>
