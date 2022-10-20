@@ -11,7 +11,7 @@ This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informa
 |npm i|npm i|npm i|
 
 |cd ..|cd socket|
-|---|---|---|
+|---|---|
 |npm run dev|npm run socket|
 
 ## Database
