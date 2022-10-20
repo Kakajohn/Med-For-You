@@ -6,13 +6,13 @@ This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informa
 
 ## How to run the project
 
-|cd frontend|cd backend|cd socket|
+|cd frontend|cd backend|cd ..|
 |---|---|---|
-|npm i|npm i|npm i|
+|npm i|npm i|npm run dev|
 
-|cd ..|cd socket|
+|cd socket|socket|
 |---|---|
-|npm run dev|npm run socket|
+|npm i|npm run socket|
 
 ## Database
 
