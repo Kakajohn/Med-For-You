@@ -6,18 +6,13 @@ This is my final thesis for Aristotle University of Thessaloniki, dpt: **Informa
 
 ## How to run the project
 
-``cd frontend``
-``npm i``
-``cd ..``
-``cd backend``
-``npm i``
-``cd ..``
-``cd socket``
-``npm i``
-``cd ..``
-``npm run dev`` (**one one terminal**)
-``cd socket``
-``npm run socket`` (**on a second terminal**)
+|cd frontend|cd backend|cd socket|
+|---|---|---|
+|npm i|npm i|npm i|
+
+|cd ..|cd socket|
+|---|---|---|
+|npm run dev|npm run socket|
 
 ## Database
 
